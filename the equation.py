@@ -1,0 +1,27 @@
+print(" >Калькулятор простых уравнений< ")
+print("1_+\n2_-\n3_*\n4_/")
+a=int(input("Введите число\n-"))
+if a==1:
+    print("Пример\n- x+y=z")
+    x=float(input("Введите число 'x'\n>"))
+    z=float(input("Введите число 'z'\n>"))
+    y=(x-z)
+    print("Ответ:"+str(y))
+if a==2:
+    print("Пример\n- x-y=z")
+    x=float(input("Введите число 'x'\n>"))
+    z=float(input("Введите число 'z'\n>"))
+    y=(x-z)
+    print("Ответ:"+str(y))
+if a==3:
+    print("Пример\n- x*y=z")
+    x=float(input("Введите число 'x'\n>"))
+    z=float(input("Введите число 'z'\n>"))
+    y=(z/x)
+    print("Ответ:"+str(y))
+if a==4:
+    print("Пример\n- x/y=z")
+    x=float(input("Введите число 'x'\n>"))
+    z=float(input("Введите число 'z'\n>"))
+    y=(x/z)
+    print("Ответ:"+str(y))
