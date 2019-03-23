@@ -1,0 +1,27 @@
+print(" >The equation< ")
+print("1_+\n2_-\n3_*\n4_/")
+a=int(input("Insert the number:\n>"))
+if a==1:
+    print("Example:\nx+y=z\n6+y=3")
+    x=float(input("Insert the number: 'x'\n>"))
+    z=float(input("Insert the number: 'z'\n>"))
+    y=(x-z)
+    print("Answer::"+str(y))
+elif a==2:
+    print("Example:\nx-y=z\n6-y=3")
+    x=float(input("Insert the number: 'x'\n>"))
+    z=float(input("Insert the number: 'z'\n>"))
+    y=(x-z)
+    print("Answer::"+str(y))
+elif a==3:
+    print("Example:\nx*y=z\n3*y=6")
+    x=float(input("Insert the number: 'x'\n>"))
+    z=float(input("Insert the number: 'z'\n>"))
+    y=(z/x)
+    print("Answer::"+str(y))
+elif a==4:
+    print("Example:\nx/y=z\n6/y=3")
+    x=float(input("Insert the number: 'x'\n>"))
+    z=float(input("Insert the number: 'z'\n>"))
+    y=(x/z)
+    print("Answer::"+str(y))
